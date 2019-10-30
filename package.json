@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-template-rdfsite",
+  "version": "0.2.0",
+  "main": "index.js",
+  "author": "Tim Ermilov <yamalight@gmail.com> (@yamalight)",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "gatsby": "^2.16.1",
+    "gatsby-theme-rdfsite": "^0.4.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
+}

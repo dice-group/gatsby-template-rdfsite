@@ -1,0 +1,31 @@
+---
+path: '/contact'
+title: 'Contact information'
+---
+
+## <Link className="header-link" to="/PrimaryContactUser">Primary Contact User</Link>
+
+<Table
+  data={[
+    { key: 'Role', value: 'Project coordinator' },
+    { key: 'Phone', value: '+49 1234 12-3456' },
+    { key: 'Fax', value: '+49 1234 12-3456' },
+    {
+      key: 'Email',
+      value: <a href="mailto:example@domain.com">example@domain.com</a>,
+    },
+  ]}
+/>
+
+## <Link className="header-link" to="/SecondaryContactUser">Secondary Contact User</Link>
+
+<Table
+  data={[
+    { key: 'Position', value: 'Project manager' },
+    { key: 'Phone', value: '+49 1234 12-3456' },
+    {
+      key: 'Email',
+      value: <a href="mailto:other@domain.com">other@domain.com</a>,
+    },
+  ]}
+/>

@@ -1,0 +1,12 @@
+@prefix dice: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+dice:PrimaryContactUser a schema:Person ;
+  schema:name "Primary Contact User" ;
+  schema:namePrefix "Prof. Dr." ;
+  schema:contact dice:MainContact ;
+  schema:role dice:Mentor ;
+  schema:phone <tel:+49-1234-1234567> ;
+  schema:email <mailto:example@domain.com> ;
+  schema:photo "example.jpg" ;
+  schema:link "https://domain.org/PrimaryContactUser" .

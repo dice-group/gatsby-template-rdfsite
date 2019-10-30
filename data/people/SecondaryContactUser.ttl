@@ -1,0 +1,13 @@
+@prefix dice: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+dice:SecondaryContactUser a schema:Person ;
+  schema:name "Secondary Contact User" ;
+  schema:namePrefix "" ;
+  schema:contact dice:AdditionalContact ;
+  schema:role dice:ProjectManager ;
+  schema:phone <tel:+49-123-1234567> ;
+  schema:email <mailto:other@domain.com> ;
+  schema:photo "second.jpg" ;
+  schema:link "http://domain.org/SecondaryContactUser" .
+
