@@ -1,0 +1,23 @@
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: install and lint
+        run: |
+          yarn install
+          yarn lint
+      - name: update papers
+        run: |
+          rm ../data/**/_Example.ttl
+          yarn papers
+      - name: build
+        run: yarn build
