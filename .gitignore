@@ -1,3 +1,5 @@
 .cache/
 public/
 node_modules/
+data/papers/*.ttl
+!data/papers/_Example.ttl
