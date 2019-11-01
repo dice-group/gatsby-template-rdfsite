@@ -7,13 +7,13 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "papers": "papers dice-research simba dice",
+    "papers": "papers # add your user and tags as args, e.g.: papers dice-research simba dice",
     "docker:build": "docker build -t rdf-site .",
     "docker:run": "docker run -it --rm -p 8000:80 rdf-site"
   },
   "dependencies": {
     "gatsby": "^2.16.1",
-    "gatsby-theme-rdfsite": "^0.10.0",
+    "gatsby-theme-rdfsite": "^0.11.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   }

@@ -1,0 +1,9 @@
+@prefix kgpartner: <https://dice-research.org/partner/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpartner:SamplePartner a schema:Partner ;
+  schema:name "Sample company" ;
+  schema:country "DE" ;
+  schema:url <https://www.smaplepartner.com/> ;
+  schema:kind "Beneficiaries" ;
+  schema:logo "" .
