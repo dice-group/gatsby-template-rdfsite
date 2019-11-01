@@ -14,13 +14,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-      - name: install and lint
+      - name: install
         run: |
           yarn install
-          yarn lint
       - name: update papers
         run: |
-          rm ../data/**/_Example.ttl
+          rm ./data/**/_Example.ttl
           yarn papers
       - name: build
         run: yarn build
