@@ -114,13 +114,14 @@ To enable the auto-deploy procedure you need to:
 1. Create new `develop` branch and set it as a default branch in github
 2. Make sure you have [github actions](https://github.com/features/actions) enabled on your repo
 3. Generate new Exoframe deployment token and add it as a secret name `EXO_TOKEN` to the repository
-4. Rename `deploy.template` to `deploy.yml` (can be found in `/.github/workflows`)
-5. Edit `deploy.yml` and replace the following values:
+4. Edit `exoframe.json` and set your project name and deployment domain
+5. Rename `deploy.template` to `deploy.yml` (can be found in `/.github/workflows`)
+6. Edit `deploy.yml` and replace the following values:
 
    - Replace `https://your.exoframe.server` with your exoframe server URL
    - (optionally) Replace `bot@dice-research.org` and `DICE Bot` with preferred value for automated git branch syncing
 
-6. (optionally) Repeat steps 4-5 for `weekly-deploy.template` if you want to have automated weekly deployments
+7. (optionally) Repeat steps 4-5 for `weekly-deploy.template` if you want to have automated weekly deployments
 
 ## 🎓 Learning Gatsby
 
