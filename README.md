@@ -105,7 +105,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 1.  **`yarn.json`** (See `package.json` above, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-## Deployment
+## 🚢 Deployment
 
 This template provides an easy way to build and deploy your website as Docker image.
 
@@ -117,7 +117,7 @@ To do so you need to:
 
 Built image uses `nginx` as base to serve your website. When deploying use port `80` from the container.
 
-## Automated deployment
+## 🤖 Automated deployment
 
 This template provides an optional way to auto-deploy the website from master branch using [Exoframe](https://github.com/exoframejs/exoframe).
 
