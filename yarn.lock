@@ -5848,10 +5848,10 @@ gatsby-telemetry@^1.1.35:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-rdfsite@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-rdfsite/-/gatsby-theme-rdfsite-0.11.0.tgz#d25cf9406a3697973c42ad4c8f307a6dfa7133c7"
-  integrity sha512-D8B2+8KpQ+8vxNi5IAtfxU5qS+CQ4HfpatQhab8DzjcHhkhB2gpmAy3B3D7wPpyQxtjt8fc1YG+JUfxfCbZKfg==
+gatsby-theme-rdfsite@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-rdfsite/-/gatsby-theme-rdfsite-0.12.0.tgz#2963b59b51b04767c1ccee5f182d02fe3d0e231c"
+  integrity sha512-kLqy7BPsmnTVgkjW3dtyJp28YR2fllYVlThicoWY4s0rMVFe34UPnEDWJZXDqg3jvuOqkIbR057wEFDzAEdMvw==
   dependencies:
     "@emotion/core" "^10.0.22"
     "@emotion/styled" "^10.0.22"
