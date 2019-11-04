@@ -22,12 +22,20 @@ This starter ships with the [Gatsby RDFSite theme](https://github.com/dice-group
     gatsby new my-rdfsite-starter https://github.com/dice-group/gatsby-template-rdfsite
     ```
 
-1.  **Start developing.**
+1.  **Edit config.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into your new site’s directory and edit `gatsby-config.js`.
 
     ```shell
     cd my-rdfsite-starter/
+    edit gatsby-config.js
+    ```
+
+1.  **Start developing.**
+
+    Once you are done adjusting basic website info - start it up.
+
+    ```shell
     gatsby develop
     ```
 
@@ -75,7 +83,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 8.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-9.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+9.  **`gatsby-config.js`**: This is the main configuration file for your site. This is where you can specify basic information about your site (metadata) like the site title, tagline and description, which colors to use, etc.
 
 10. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
