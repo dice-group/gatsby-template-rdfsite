@@ -42,6 +42,32 @@ This starter ships with the [Gatsby RDFSite theme](https://github.com/dice-group
     }
     ```
 
+    Alternatively, you can provide a JSON config with a list of users and tags.
+    Config (named `papers.json`) would look something like this:
+
+    ```json
+    [
+      {
+        "username": "dice-research",
+        "tags": ["simba", "dice"]
+      },
+      {
+        "username": "gpublio",
+        "tags": ["semantic"]
+      }
+    ]
+    ```
+
+    While script for papers fetching would look like this:
+
+    ```json
+    {
+      "scripts": {
+        "papers": "papers --config=papers.json"
+      }
+    }
+    ```
+
 1.  **Start developing.**
 
     Once you are done adjusting basic website info - start it up.
